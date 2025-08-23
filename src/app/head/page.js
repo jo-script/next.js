@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -6,6 +7,8 @@ function page() {
         <h1>hello world</h1>
         <h1>hello world</h1>
         <h1>hello world</h1>
+
+        <Link href="/about">About</Link>
     </div>
   )
 }
