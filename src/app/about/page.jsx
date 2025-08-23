@@ -59,7 +59,7 @@ export default function Home() {
 
         {notes.map((n, i) => (
           <div key={i}
-            className="bg-white p-4 rounded shadow flex justify-between items-center"
+            className="bg-purple p-4 rounded shadow flex justify-between items-center"
           >
             <div>
               <p className="font-medium">{n.text}</p>
